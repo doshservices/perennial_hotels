@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Header from "./Header";
-import { assets } from "../../../public/assets";
+import { assets } from "../../public/assets";
 
 const Hero = () => {
   return (

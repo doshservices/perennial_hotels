@@ -4,7 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { FiMenu, FiX } from "react-icons/fi"; // Icons for mobile menu
 import Image from "next/image";
-import { assets } from "../../../public/assets";
+import { assets } from "../../public/assets";
 
 const NAV_LINKS = [
   { href: "/", label: "Home" },
