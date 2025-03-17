@@ -11,11 +11,11 @@ export default function BrandFamily() {
   ]
   return (
     <section className='border-y-1 border-gray-200 py-15 space-y-10'>
-        <div className='flex px-10   justify-between '>
-            <div className='w-1/2'>
+        <div className='flex px-10 gap-2 flex-col md:flex-row justify-between '>
+            <div className='md:w-1/2'>
                 <h2 className='text-4xl w-[85%] text-[#3D3316]  tracking-tighter '>Our Family Brand.</h2>
             </div>
-            <div className='w-1/2'>
+            <div className='md:w-1/2'>
                 <p className='font-medium'>The Perennia Hotels & Resorts brand is an upper upscale hotel and resort brand, with an emphasis on living spaces that evoke a sense of contemporary African design and a service culture of excellence.</p>
             </div>
               
