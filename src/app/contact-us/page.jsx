@@ -4,16 +4,16 @@ import Image from 'next/image'
 
 export default function Contact() {
   return (
-    <div className='w-[90%] mx-auto'>
+    <div className=' mx-[80px] mb-24'>
         <div className='max-w-72 mx-auto'>
             <Header title={"Get In Touch With Us"}/>
         </div>
-        <div className=' mb-14'>
-            <Image src='/assets/contact_us.png' alt='contact us' width={1200} height={400} />
+        <div className=' mb-15'>
+            <Image src='/assets/contact_us.png' alt='contact us' width={1200} height={450} />
         </div>
-        <section className = 'flex flex-col md:flex-row   gap-5 justify-between  '>
-            <div className='flex flex-col space-y-5 md:max-w-[40%] text-3xl font-medium'>
-                <h1 className='text-3xl font-medium'>
+        <section className = 'flex flex-col md:flex-row  gap-[106px] justify-between  '>
+            <div className='flex flex-col space-y-5 md:max-w-[50%] text-[40px]'>
+                <h1 className=' '>
 
                 Address: 10, Shabiola Avenue, Maryland Crescent. Lagos State, Nigeria.
                 </h1>
@@ -25,7 +25,7 @@ export default function Contact() {
                 </h1>
             </div>
             <div className="space-y-5 md:max-w-[50%]">
-                <p className='font-bold text-sm'>Enquiry Form</p>
+                <p className='font-medium text-sm'>Enquiry Form</p>
                 <p className='text-sx'>Fill out the form below with your inquireis and a member of our team would reach out to you as soon as possible
                 </p>
                 <form action="" className='space-y-5'>

@@ -7,26 +7,27 @@ import Image from "next/image";
 import { assets } from "../../../public/assets";
 
 const NAV_LINKS = [
-  { href: "/", label: "Home" },
-  { href: "/about", label: "About Us" },
+  { href: "/about-us", label: "About Us" },
   { href: "/our-projects", label: "Our Projects" },
   { href: "/capabilities", label: "Our Capabilities" },
   { href: "/team", label: "Our Team" },
+  { href: "/contact-us", label: "Contact Us" },
+
 ];
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="sticky top-0 w-full bg-[#F8F8F8] shadow-md z-50">
-      <div className="container mx-auto flex items-center justify-between px-6 py-4">
+    <nav className="sticky top-0 w-full bg-[#F8F8F8] shadow-md z-50 py-5">
+      <div className=" mx-[80px] flex items-center justify-between text-[14px]  ">
         {/* Logo */}
-        <Link href="/" className="text-2xl font-bold text-green-700 cursor-pointer">
-          <Image src={assets.logo} alt="Perennia Hotels" width={150} height={50} />
+        <Link href="/" className=" font-bold text-green-700 cursor-pointer">
+          <Image src={assets.logo} alt="Perennia Hotels" width={212} height={48} />
         </Link>
 
         {/* Desktop Menu */}
-        <div className="hidden md:flex space-x-8">
+        <div className="hidden md:flex space-x-[40px]">
           {NAV_LINKS.map(({ href, label }) => (
             <Link key={href} href={href} className="text-gray-700 hover:text-green-700 font-medium transition-all duration-300">
               {label}

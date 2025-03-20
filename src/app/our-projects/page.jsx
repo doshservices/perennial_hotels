@@ -42,10 +42,7 @@ export default function page() {
               </p>
             </div>
           </section>
-
-          <button className="border p-2 px-4 text-center text-sm rounded-full text-[#252420]">
-            Visit Website <span className="ml-4">→</span>
-          </button>
+          <Button text="Visit Website" />
         </div>
         <div className="space-y-5 mt-5 w-full md:w-[50%]">
           <p className="text-sm">
@@ -81,4 +78,14 @@ export default function page() {
       </section>
     </div>
   );
+}
+
+
+
+export function Button({text}) {
+  return (
+    <button className="border p-2 px-4 text-center text-sm rounded-full text-[#252420]">
+    {text} <span className="ml-4">→</span>
+  </button>
+  )
 }
