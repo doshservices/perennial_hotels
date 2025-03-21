@@ -62,7 +62,7 @@ export default function page() {
       <div className="border-y py-[60px] px-6 md:px-[80px]  border-gray-500">
         <h1 className="text-[42px] text-[#12574A]">What We Do</h1>
         <section className="flex flex-col md:flex-row-reverse gap-16 pb-[11px] items-center">
-          <div className="w-full md:w-[50%] h-[743px] ">
+          <div className="w-full md:w-[50%] md:h-[743px] h-[262px]">
             <Image src={'/assets/capability.png'} width={100} height={100} alt="capability" className="object-cover w-full h-full rounded-2xl" />
           </div>
           <div className="space-y-6 w-full md:w-[50%]">
