@@ -61,7 +61,7 @@ export default function page() {
       </section>
       <div className="border-y py-[60px] px-6 md:px-[80px]  border-gray-500">
         <h1 className="text-[42px] text-[#12574A]">What We Do</h1>
-        <section className="flex flex-col md:flex-row-reverse gap-16 pb-[11px] items-center">
+        <section className="flex flex-col md:flex-row-reverse gap-16pb-[40px] mb:pb-[11px] items-center">
           <div className="w-full md:w-[50%] md:h-[743px] h-[262px]">
             <Image src={'/assets/capability.png'} width={100} height={100} alt="capability" className="object-cover w-full h-full rounded-2xl" />
           </div>
@@ -69,7 +69,7 @@ export default function page() {
             <h1 className="text-2xl font-medium"> </h1>
             <div className="flex justify-between">
               <h4 className="text-[#12574A]  text-2xl font-medium">Concept & Feasibility</h4>
-              <p className="p-1 text-[#12574A] border rounded-full rotate-90">
+              <p className="p-1 text-[#12574A] border text-center rounded-full rotate-90">
                 ←
               </p>
             </div>
