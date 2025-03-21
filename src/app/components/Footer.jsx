@@ -18,7 +18,7 @@ export default function Footer() {
   return (
  
         <footer className="w-full bg-[#3D3316] text-white py-10 mt-10">
-            <div className=' mx-[110px] gap-4  flex flex-col md:flex-row justify-between'>
+            <div className='mx-10 md:mx-[110px] gap-4  flex flex-col md:flex-row justify-between'>
                 <section className='w-full md:w-[32%]  flex flex-col gap-2   '>
                     <Image src="/assets/footer-logo.png" alt="logo" width={305} height={69}  className='ml-[-8px]'/>
                     <div className= 'space-y-4 hidden md:block w-full'>

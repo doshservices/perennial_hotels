@@ -9,7 +9,7 @@ import { assets } from "../../../public/assets";
 const NAV_LINKS = [
   { href: "/about-us", label: "About Us" },
   { href: "/our-projects", label: "Our Projects" },
-  { href: "/capabilities", label: "Our Capabilities" },
+  { href: "/our-capabilities", label: "Our Capabilities" },
   { href: "/team", label: "Our Team" },
   { href: "/contact-us", label: "Contact Us" },
 
@@ -20,7 +20,7 @@ const Navbar = () => {
 
   return (
     <nav className="sticky top-0 w-full bg-[#F8F8F8] shadow-md z-50 py-5">
-      <div className=" mx-[80px] flex items-center justify-between text-[14px]  ">
+      <div className=" mx-6 md:mx-[80px] flex items-center justify-between text-[14px]  ">
         {/* Logo */}
         <Link href="/" className=" font-bold text-green-700 cursor-pointer">
           <Image src={assets.logo} alt="Perennia Hotels" width={212} height={48} />
@@ -36,14 +36,16 @@ const Navbar = () => {
         </div>
 
         {/* Mobile Menu Button */}
-        <button onClick={() => setMenuOpen(!menuOpen)} className="md:hidden transition-transform duration-300 text-2xl">
-          {menuOpen ? <FiX /> : <FiMenu />}
+        <button onClick={() => setMenuOpen(!menuOpen)} className="md:hidden transition-transform duration-300 text-2xl pl-2px px-6 ">
+          {menuOpen ? <FiX /> : <div className="md:border-none border px-4 p-1 rounded-2xl ">
+            <FiMenu className="" />
+          </div>}
         </button>
       </div>
 
        {/* Mobile Dropdown Menu with Smooth Transition */}
        <div
-        className={`absolute top-16 left-0 md:hidden w-full bg-white shadow-md transition-all duration-300 ease-in-out ${
+        className={`absolute top-24 left-0 md:hidden w-full bg-white shadow-md transition-all duration-300 ease-in-out ${
           menuOpen ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-5 pointer-events-none"
         }`}
       >

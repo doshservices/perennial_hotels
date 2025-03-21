@@ -10,8 +10,8 @@ export default function BrandFamily() {
     {image:'golf',title:'Ibom Icon Hotel & Golf Resort'}
   ]
   return (
-    <section className='border-y-1 border-gray-200 py-15  space-y-10'>
-        <div className='mx-[80px] flex items-end  gap-2 flex-col md:flex-row justify-between mb-[60px]'>
+    <section className='border-y-1 border-gray-200 md:py-15  space-y-10'>
+        <div className='m-6 md:mx-[80px] flex md:items-end  gap-2 flex-col md:flex-row justify-between mb-[60px]'>
             <div className='md:w-1/2 '>
                 <h2 className='text-4xl w-[85%] text-[#3D3316]  tracking-tighter' style={{ letterSpacing: '-1px' }}>Our Family Brand</h2>
             </div>
@@ -20,7 +20,7 @@ export default function BrandFamily() {
             </div>
               
         </div>
-        <div className='md:mx-[45px] flex flex-col md:flex-row   gap-[10px]'>
+        <div className='m-6 md:mx-[45px] flex flex-col md:flex-row   gap-[10px]'>
           {
             brand.map((item,index)=>{
               return <BrandCard key={index} image={item.image} title={item.title}/>

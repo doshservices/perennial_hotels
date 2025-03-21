@@ -20,7 +20,7 @@ export default function BrandPartnerships() {
   ];
   return (
     <div className=" flex flex-col items-center justify-center py-10 px-5">
-      <h1 className="text-2xl mb-15">Our Strong Brand Relationships</h1>
+      <h1 className="text-2xl text-center font-semibold md:font-normal w-[189px] md:w-full mb-15">Our Strong Brand Relationships</h1>
       <div className="flex flex-wrap justify-center gap-5">
         {brand.map((item, index) => (
           <div
