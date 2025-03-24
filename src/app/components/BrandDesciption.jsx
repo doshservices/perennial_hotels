@@ -25,7 +25,7 @@ export function DesciptionCard({ title, boldText, ligihtText, buttonText }) {
   return (
     <div className="flex  px-6  md:px-[80px] flex-col md:flex-row md:gap-x-[147px] justify-between my-10 md:mt-[60px] md:mb-[108px]  ">
       <div className="md:max-w-[480 flex flex-col justify-between items-start">
-        <h2 className="text-[24px] md:text-4xl md:w-[474px] text-[#3D3316] tracking-[-1px]">
+        <h2 className="text-2xl md:text-4xl md:w-[474px] text-[#3D3316] tracking-[-1px] mb-5 md:mb-0">
           {title}
         </h2>
 

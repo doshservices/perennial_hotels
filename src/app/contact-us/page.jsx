@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 export default function Contact() {
   return (
-    <div className=' mx-[80px] mb-24'>
+    <div className=' mx-6 md:mx-[80px] mb-24'>
         <div className='max-w-72 mx-auto'>
             <Header title={"Get In Touch With Us"}/>
         </div>
@@ -12,7 +12,7 @@ export default function Contact() {
             <Image src='/assets/contact_us.png' alt='contact us' width={1200} height={450} />
         </div>
         <section className = 'flex flex-col md:flex-row  gap-[106px] justify-between  '>
-            <div className='flex flex-col space-y-5 md:max-w-[50%] text-[40px]'>
+            <div className='flex flex-col space-y-5 md:max-w-[50%] text-2xl md:text-[40px]'>
                 <h1 className=' '>
 
                 Address: 10, Shabiola Avenue, Maryland Crescent. Lagos State, Nigeria.
