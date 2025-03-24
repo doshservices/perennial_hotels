@@ -6,7 +6,7 @@ import { assets } from "../../../public/assets";
 
 const Hero = () => {
   return (
-    <section className="flex flex-col space-y-10 ">
+    <section className="flex flex-col items-center space-y-10 ">
       <h2 className=" text-2xl my-[60px]  md:text-[46px]  font-medium px-6 md:px-0  text-center text-black w-full md:max-w-[763px] tracking-[-1px] " >
       True <span className="text-black">African </span>
       <span className="text-[#12574A]">Hospitality</span>, Delivered with Global
