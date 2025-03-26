@@ -191,9 +191,8 @@ export default function page() {
 
 export function Button({ text }) {
   return (
-    <button className="border p-2 px-4 text-center text-sm rounded-full text-[#252420]">
+    <button className="border p-2 px-4 text-center text-sm rounded-full text-[#12574A]">
       {text} <span className="ml-4">→</span>
     </button>
   );
 }
-git 

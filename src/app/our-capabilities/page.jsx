@@ -1,6 +1,7 @@
 import Header from "@/app/components/Header";
-import { assets } from "../../../public/assets";
 import Image from "next/image";
+import { HiArrowLongDown } from "react-icons/hi2";
+
 
 export default function page() {
   const headerTest = "Expertise that extends into every experience";
@@ -48,17 +49,17 @@ export default function page() {
         </div>
         {/* right section */}
         <div className="md:w-[45%] w-full mb-[60px]">
-          <section className="flex flex-col  items-center w-full text-center md:text-start md:flex-row md:gap-x-[60px] md:m-10">
+          <section className="flex flex-col  items-center w-full text-center md:text-left  md:flex-row md:gap-x-[60px] md:m-10">
             <h1 className=" text-3xl md:text-7xl tracking-[-1px] text-[#12574A]">5+</h1>
-            <p className="text-sm tracking-[-1px] w-[345px]">
+            <p className="text-sm tracking-[-1px] w-[345px] text-[#3D3316]">
               Years of development, experiential placemaking, hotel and
               restaurant management, and community enrichment experience
             </p>
           </section>
           <hr className="text-gray-500 my-6 md:my-0" />
-          <section className="flex flex-col items-center text-center md:flex-row md:gap-x-[72px] md:m-10">
+          <section className="flex flex-col items-center text-center md:text-left   md:flex-row md:gap-x-[72px] md:m-10">
             <h1 className="text-3xl md:text-7xl tracking-[-1px] text-[#12574A]">15</h1>
-            <p className="text-sm tracking-[-1px] w-[345px]">
+            <p className="text-sm tracking-[-1px] w-[345px] text-[#3D3316]">
               African countries in specialist areas including - Market &
               Financial Feasibility Studies, Operator Selection and Management
               Contract Negotiation, Hotel Valuation and Brokerage, Capital
@@ -70,27 +71,28 @@ export default function page() {
       <div className="border-y py-[60px] px-6 md:px-[80px]  border-gray-500">
         <h1 className="text-2xl md:text-[42px] text-[#12574A]">What We Do</h1>
         <section className="flex flex-col md:flex-row-reverse gap-16 pb-[40px] mb:pb-[11px] items-center">
-          <div className="w-full md:w-[50%] md:h-[743px] pt-10 h-[262px]">
-            <Image src={'/assets/capability.png'} width={100} height={100} alt="capability" className="object-cover w-full h-full rounded-2xl" />
+          <div className="w-full md:w-[50%] md:h-[743px] pt-10 h-[262px] rounded-2xl">
+            <Image src={'/assets/girl-study.png'} width={100} height={100} alt="capability" className="object-cover w-full h-full rounded-2xl" />
           </div>
           <div className="space-y-6 w-full md:w-[50%]">
             <h1 className="text-2xl font-medium"> </h1>
-            <div className="flex justify-between">
+            <div className="flex items-center justify-between">
               <h4 className="text-[#12574A] text-2xl font-medium">Concept & Feasibility</h4>
-              <p className="p-1 text-[#12574A] border text-center rounded-full rotate-90">
-                ←
-              </p>
+              <div className="border border-gray-400 rounded-2xl p-1 px-2">
+      < HiArrowLongDown size={15} className="text-[#12574A] rotate-180 font-light "/>
+      </div>
             </div>
-            <p className="border- border-gray-500 pb-6">
+            <p className="border- text-sm border-gray-500 pb-6">
               Our Concept & Feasibility services provide a strategic foundation
               for successful projects. We analyze market potential, assess
               financial viability, and develop strong concepts to maximize
-              project success. Our key offerings include:
-              <div className="list-disc">
-                <span>•Market & financial feasibility studies Project concept</span>
-                •development Market & financial due diligence Highest and best
-                •use feasibility studies Hotel branding and market development
-                •Design brief development
+              project success. <br />
+              Our key offerings include:
+              <div className="list-disc list-inside text-sm pl-5">
+                <p>• Market & financial feasibility studies Project concept</p>
+                <p>• Development Market & financial due diligence Highest and best</p>
+                <p>• Use feasibility studies Hotel branding and market development</p>
+                <p>• Design brief development</p>
               </div>
             </p>
             <ArrowCard text={"Development Advisory"}/>
@@ -115,12 +117,10 @@ export default function page() {
 
 export function ArrowCard({ text }) {
   return (
-    <div className="w-full flex justify-between gap-10 border-t border-gray-500 pt-6">
+    <div className="w-full flex justify-between items-center gap-10 border-t border-gray-500 pt-6">
       <h1 className="text-lg md:text-2xl  text-[#12574A] max-w-[70%]  font-medium"> {text}</h1>
-      <div className="">
-        <p className="p-1.5 text-[#12574A]  text-center border rounded-full rotate-[-90deg]">
-          ←
-        </p>
+      <div className="border border-gray-400 rounded-2xl p-1 px-2">
+      < HiArrowLongDown size={15} className="text-[#12574A] font-light "/>
       </div>
     </div>
   );

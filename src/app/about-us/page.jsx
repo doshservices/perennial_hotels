@@ -55,11 +55,11 @@ export default function page() {
 
       <section className="border-y-1 border-gray-200 md:py-[60px] space-y-10">
         <div className="flex mx-6 md:mx-[80px] gap-2.5 md:gap-[30px] flex-col md:flex-row   ">
-          <div className="w-full md:w-[785px] md:h-[534px] h-[150px] ">
+          <div className="w-full  xl:w-full  md:h-[534px] h-[150px]  ">
             <img
-              src="/assets/about-img1.png"
+              src="/assets/about-img3.png"
               alt="perenial"
-              className="w-full h-full"
+              className="w-full  h-full"
             />
           </div>
           <div className="flex gap-2.5 md:gap-auto w-full md:w-[365px] md:h-[534px]  justify-between  flex-col  ">
@@ -89,9 +89,9 @@ export default function page() {
       </div>
       </section>
       <section className="flex flex-col md:flex-row gap-10 md:gap-[106px] justify-between mt-5 md:mt-15 mb-[120px] w-full px-6 md:px-[80px]">
-        <div className="flex flex-col gap-5 justify-between items-start md:py-15 w-full ">
-          <h4 className="font-medium text-xl">Our Mission</h4>
-          <h2 className="font-bold text-3xl italic">
+        <div className="flex flex-col gap-5 justify-between text-left items-start md:py-15 w-full md:w-[50%] ">
+          <h4 className="font-medium md:text-xl text-[16px]">Our Mission</h4>
+          <h2 className="font-medium  md:text-[32px] text-[20px] text-left md:w-[587px]   italic " style={{letterSpacing:'-1px'}}>
             “To be the choice Purveyor of African hospitality, providing
             lifelong experiences to the world.”
           </h2>
@@ -108,11 +108,10 @@ export default function page() {
             />
           </div>
         </div>
-        <div className="flex flex-col md:items-end md:flex-col-reverse gap-5 justify-between md:py-15 w-full items-start ">
-          <h4 className="font-medium text-xl">Our Vision</h4>
-          <h2 className="font-medium text-3xl italic">
-            “To be the choice Purveyor of African hospitality, providing
-            lifelong experiences to the world.”
+        <div className="flex flex-col md:items-end md:flex-col-reverse gap-5 justify-between md:py-15 w-full md:w-[50%]  items-start ">
+          <h4 className="font-medium text-[16px] md:text-xl">Our Vision</h4>
+          <h2 className="font-medium text-[20px] md:text-3xl italic md:text-right xl:w-[587px]">
+            “We conceptualise and create best-in-class commercial real estate assets and operations to deliver consistently exceptional service outcomes.”
           </h2>
           
           <div className="w-full">
