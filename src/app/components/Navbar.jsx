@@ -20,9 +20,9 @@ const Navbar = () => {
 
   return (
     <nav className="sticky top-0 w-full bg-[#F8F8F8] shadow-md z-50 py-5">
-      <div className=" mx-6 md:mx-[80px] flex items-center justify-between text-[14px]  ">
+      <div className="px-[80px] flex items-center justify-between text-[14px]">
         {/* Logo */}
-        <Link href="/" className=" font-bold text-green-700 cursor-pointer">
+        <Link href="/" className="font-bold text-green-700 cursor-pointer">
           <Image src={assets.logo} alt="Perennia Hotels" width={212} height={48} />
         </Link>
 

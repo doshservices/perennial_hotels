@@ -5,7 +5,8 @@ import Footer from "./components/Footer";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
-  weight: ["400","500"], // Use Montserrat Regular
+  weight: ["400", "500"],
+  display: "swap",
   variable: "--font-montserrat",
 });
 
@@ -16,8 +17,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" >
-      <body className={montserrat.variable}>
+    <html lang="en" className={montserrat.variable}>
+      <body className="font-display">
         <Navbar />
         {children}
         <Footer />

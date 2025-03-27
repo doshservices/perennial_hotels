@@ -100,7 +100,7 @@ export default function page() {
             <Image
               src={assets.mission}
               alt="mission"
-              objectFit="cover"
+              objectfit ="cover"
               layout="responsive"
               width={100}
               height={100}
@@ -118,7 +118,7 @@ export default function page() {
             <Image
               src={assets.vision}
               alt="vision"
-              objectFit="cover"
+              objectfit ="cover"
               layout="responsive"
               width={100}
               height={100}

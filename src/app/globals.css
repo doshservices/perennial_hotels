@@ -1,15 +1,13 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-@theme {
-  --font-display: "Montserrat" ; 
-}
+@layer base {
+  body {
+    @apply font-display;
+  }
 
-
-body {
-  /* font-family: Montserrat; */
-  @apply font-display;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  letter-spacing: -1px; /* Set letter spacing for header texts */
+  h1, h2, h3, h4, h5, h6 {
+    letter-spacing: -1px;
+  }
 }
