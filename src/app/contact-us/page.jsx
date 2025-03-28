@@ -55,8 +55,7 @@ export default function Contact() {
       <section className="flex flex-col md:flex-row gap-[106px] justify-between mt-[60px]">
         <div className="flex flex-col space-y-5 md:max-w-[50%] text-2xl md:text-[40px] text-[#3D3316] leading-[30px] md:leading-[52px]">
           <h1>
-            Address: 10, Shabiola Avenue, Maryland Crescent. Lagos State,
-            Nigeria.
+            Address: 90, Awolowo Road, Ikoyi, Lagos.
           </h1>
           <hr className="border-black" />
           <h1>Phone: +234 709 8765 432 </h1>
