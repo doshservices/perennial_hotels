@@ -60,7 +60,7 @@ export default function Contact() {
           <hr className="border-black" />
           <h1>Phone: +234 709 8765 432 </h1>
           <hr className="border-black" />
-          <h1>Email: info@perennia.com</h1>
+          <h1>Email: info@perenniahotels.com</h1>
         </div>
         <div className="space-y-5 md:max-w-[50%]">
           <p className="font-medium text-[20px] text-[#3D3316]">Inquiry Form</p>
