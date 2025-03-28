@@ -19,10 +19,10 @@ export default function BrandPartnerships() {
     { image: "inter", title: "Intercontinental" },
   ];
   return (
-    <div className=" flex flex-col items-center justify-center py-10 px-5">
-      <h1 className="text-2xl text-center font-semibold md:font-normal w-[189px] md:w-full mb-15">Our Strong Brand Relationships</h1>
-      <div className="flex flex-wrap justify-center gap-5">
-        {brand.map((item, index) => (
+    <div className="flex flex-col items-center justify-center py-10 px-6 md:px-[80px]">
+    <h1 className="text-2xl text-[#374151] text-center font-semibold md:font-normal w-[189px] md:w-full mb-[40px]">Our Strong Relationships</h1>
+    <div className="flex flex-wrap justify-center gap-[14.585px] md:gap-5">
+      {brand.map((item, index) => (
           <div
             key={index}
             className="w-28"

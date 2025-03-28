@@ -89,12 +89,12 @@ export default function page() {
         <h1 className="py-10 text-2xl text-center font-semibold text-[#12574A]">
           Project Pipeline
         </h1>
-        <div className="flex flex-col md:items-center md:flex-row-reverse md:gap-x-[68px] justify-between">
-          <section className="w-full ">
+        <div className="flex flex-col md:items-start md:flex-row-reverse md:gap-x-[68px] justify-between">
+          <section className="w-full h-full ">
             <img
               src="assets/pipeline.png"
               alt="project-pipeline"
-              className="w-[612px] h-[743px] object-cover hidden md:block"
+              className="w-[612px] h-[743px] object-cover hidden md:block rounded-lg"
             />
             {/* mobile */}
             <img
@@ -103,7 +103,7 @@ export default function page() {
               className="w-full h-full object-cover rounded-md md:hidden"
             />
           </section>
-          <section className="pt-5 pb-[60px]">
+          <section className="pb-[60px]">
             <div className="flex justify-between">
               <h4 className=" text-2xl font-medium">
                 Perennia Apapa Hotel, Lagos.
@@ -191,7 +191,7 @@ export default function page() {
 
 export function Button({ text }) {
   return (
-    <button className="border p-2 px-4 text-center text-sm rounded-full text-[#12574A]">
+    <button className="border border-[#3D3316] p-2 px-4 text-center text-sm rounded-full text-[#12574A]">
       {text} <span className="ml-4">→</span>
     </button>
   );
