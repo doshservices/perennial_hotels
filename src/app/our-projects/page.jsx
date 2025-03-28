@@ -86,7 +86,7 @@ export default function page() {
         </div>
       </section>
       <section className="border-t-1 border-gray-500 mt-5 ">
-        <h1 className="py-10 text-2xl text-center font-semibold text-[#12574A]">
+        <h1 className="py-10 text-2xl text-left font-medium text-[#12574A] text-[42px]">
           Project Pipeline
         </h1>
         <div className="flex flex-col md:items-start md:flex-row-reverse md:gap-x-[68px] justify-between">
