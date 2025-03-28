@@ -16,7 +16,7 @@ export default function Footer() {
   ];
   const links = [
     { name: "About Us", link: "/about-us" },
-    { name: "Our Team", link: "/our-team" },
+    { name: "Our Team", link: "/team" },
     { name: "Our Projects", link: "/our-projects" },
     { name: "Work With Us", link: "/contact-us" },
   ];
