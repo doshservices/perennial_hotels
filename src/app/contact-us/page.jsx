@@ -28,9 +28,9 @@ export default function Contact() {
           <h1 className="">Email: info@perennia.com</h1>
         </div>
         <div className="space-y-5 md:max-w-[50%]">
-          <p className="font-medium text-[20px] text-[#3D3316]">Enquiry Form</p>
+          <p className="font-medium text-[20px] text-[#3D3316]">Inquiry Form</p>
           <p className="text-sx text-[#3D3316]">
-            Fill out the form below with your inquireis and a member of our team
+            Fill out the form below with your inquiries and a member of our team
             would reach out to you as soon as possible
           </p>
           <form action="" className="space-y-5">
@@ -48,8 +48,8 @@ export default function Contact() {
               <p>Service Type</p>
               <select name="" id="" className="outline-none w-[50%]">
                 <option value=""></option>
-                <option value="">General Enquiry</option>
-                <option value="">Booking Enquiry</option>
+                <option value="">General Inquiry</option>
+                <option value="">Booking Inquiry</option>
                 <option value="">Feedback</option>
               </select>
             </div>

@@ -7,7 +7,7 @@ export default function BrandDesciption() {
     boldText:
       "The Perennia Hotels & Resorts brand is an upper upscale hotel and resort brand, with an emphasis on living spaces that evoke a sense of contemporary African design and a service culture of excellence.",
     lightText:
-      "Relax your mind, be at your best and make connections that will change your world. Perennia Hotels and Resorts are places where natural beauty meets creativity, artistry meets design, and unforgettable memories are made.",
+      "Relax your mind, be at your best and make connections that will change your world. Perennia Hotels and Resorts is a place where natural beauty meets creativity, artistry meets design, and unforgettable memories are made.",
   };
 
   return (

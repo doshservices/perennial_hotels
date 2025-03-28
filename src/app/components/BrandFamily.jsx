@@ -4,7 +4,7 @@ import React from 'react'
 
 export default function BrandFamily() {
   const brand = [
-    {image:'resort',title:'Perennia Hotels & Resort'},
+    {image:'resort',title:'Perennia Hotels & Resorts'},
     {image:'essence',title:'Essence by Perennia'},
     {image:'essence',title:'Essence by Perennia'},
     {image:'golf',title:'Ibom Icon Hotel & Golf Resort'}
