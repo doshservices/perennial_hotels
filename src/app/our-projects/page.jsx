@@ -39,8 +39,8 @@ const pipelineProjects = [
     pools: "2 (1 adult, 1 children’s pool) – Outdoor",
     banqueting: "6 Conference halls.",
     otherFacilities: "Gym, 3 Kitchens, Laundry, business centre, hair & beauty salon, spa, pool-table, night club, shopping mall, Skateboard park, cinema",
-    desktopImage: "/assets/axari-desktop.png",
-    mobileImage: "/assets/axari-mobile.png",
+    desktopImage: "/assets/axari-calabar.png",
+    mobileImage: "/assets/axari-calabar.png",
   },
   {
     name: "Perennia Zephyr Luxury Apartments Oniru, Lagos, Nigeria",
@@ -55,8 +55,8 @@ const pipelineProjects = [
     banqueting: "Banquet space ",
     otherFacilities:
       "Gym, Squash court, lawn tennis court, table tennis, Kitchens, Laundry, water treatment plant and reservoir, Leisure and wellness offerings.",
-    desktopImage: "/assets/zephyr-desktop.png",
-    mobileImage: "/assets/zephyr-mobile.png",
+    desktopImage: "/assets/zephyr-luxury.png",
+    mobileImage: "/assets/zephyr-luxury.png",
   },
   {
     name: "Perennia Lansdown Ibru Heights Resort, Aburi, Ghana & Wanshi Gardens Events Center, Accra, Ghana",
@@ -71,8 +71,8 @@ const pipelineProjects = [
     banqueting: "2 conference rooms, 1 events center (Wanshi Gardens, Accra)",
     otherFacilities:
       "s Gym, Kitchen, Laundry, business centre, sauna, spa, pool table, outdoor jacuzzi, tennis court",
-    desktopImage: "/assets/zephyr-desktop.png",
-    mobileImage: "/assets/zephyr-mobile.png",
+    desktopImage: "/assets/ibro-heights-ghana.png",
+    mobileImage: "/assets/ibro-heights-ghana.png",
   },
 ];
 
@@ -86,8 +86,8 @@ export default function page() {
   return (
     <div className="px-6 md:px-[80px] ">
       <Header title={"Our Projects"} />
-      <div className="my-10 md:h-[450px] h-[400px]">
-        <Image
+      <div className="my-5 md:my-10 h-[250px] md:h-[450px]">
+      <Image
           src="/assets/our-project.png"
           alt="our projects"
           width={1000}
@@ -178,7 +178,7 @@ export default function page() {
                 onClick={() => toggleProject(index)}
                 className="flex justify-between items-center cursor-pointer"
               >
-                <h4 className="text-2xl font-medium">{project.name}</h4>
+                <h4 className="text-lg md:text-2xl font-medium">{project.name}</h4>
                 <p className="p-1 text-[#12574A] border text-center rounded-full rotate-90">
                   ←
                 </p>
