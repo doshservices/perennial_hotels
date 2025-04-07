@@ -7,7 +7,7 @@ import { DesciptionCard } from "../components/BrandDesciption";
 
 export default function page() {
   const headerText =
-    "A history of pushing boundires and delivering  African hospitality with contemporary style.";
+    "A history of pushing boundaries and delivering  African hospitality with contemporary style.";
   const details = [
     {
       title: " African hospitality delivered with contemporary style.",

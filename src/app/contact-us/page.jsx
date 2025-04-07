@@ -50,6 +50,9 @@ export default function Contact() {
           alt="contact us"
           width={1200}
           height={450}
+          loading="lazy"
+          quality={75}
+          priority={false}
         />
       </div>
       <section className="flex flex-col md:flex-row gap-[106px] justify-between mt-[60px]">
@@ -58,7 +61,7 @@ export default function Contact() {
             Address: 90, Awolowo Road, Ikoyi, Lagos.
           </h1>
           <hr className="border-black" />
-          <h1>Phone: +234 709 8765 432 </h1>
+          <h1>Phone: 08162587115, 08056368606</h1>
           <hr className="border-black" />
           <h1>Email: info@perenniahotels.com</h1>
         </div>

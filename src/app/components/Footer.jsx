@@ -25,7 +25,7 @@ export default function Footer() {
     { name: "Privacy Policy", link: "" },
     { name: "Sustainability Policies", link: "" },
     { name: "©2025 Perennia Hotels & Resort", link: "", className: "mt-4" }, // Add margin top
-    { name: "All Rights Reserved", link: "", className: "mt-0" }, // Remove gap with previous item
+    { name: "All Rights Reserved", link: "", className: "mt-0" },
   ];
 
   return (
